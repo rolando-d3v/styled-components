@@ -1,16 +1,18 @@
 import React from "react";
-import Burger from "./Burger";
 import * as s from "./Navbar.styled";
+import * as FaIcons from "react-icons/fa";
 
 const navLink = [
   { name: "Home", url: "/home" },
   { name: "Contact", url: "/contact" },
 ];
 
-const Navbar = () => {
+export default function Navbar({open, setOpen}) {
+ 
   return (
     <s.NavContainer>
       <s.NavSeccion1>
+        <FaIcons.FaBars style={{ fontSize: "25px" }} onClick={() => setOpen(!open)} />
         {navLink.map((link, index) => (
           <s.NavLink key={index} to={link.url}>
             {link.name}
@@ -24,9 +26,8 @@ const Navbar = () => {
       </s.NavSeccion1>
 
       <s.NavSeccion2></s.NavSeccion2>
-      <Burger />
     </s.NavContainer>
   );
 };
 
-export default Navbar;
+

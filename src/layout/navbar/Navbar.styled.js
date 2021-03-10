@@ -13,6 +13,7 @@ export const NavContainer = styled.nav`
 
 export const NavSeccion1 = styled.div`
   display: flex;
+  margin: 0 1rem;
   align-items: center;
 `;
 
@@ -23,18 +24,23 @@ export const ContenInput = styled.div`
 `;
 
 export const InputSearch = styled.input`
+  width: 100%;
   outline: none;
+  border: none;
+  background-color: #eeeded;
   border-radius: 5px;
-  padding: 0.3rem 1.5rem 0.3rem 0.5rem;
+  padding: 0.5rem 2.5rem 0.5rem 0.5rem;
   `;
 
 export const IconSearch = styled(FaIcons.FaSearch)`
   position: absolute;
   color: #424242;
   right: 0px;
-  margin-right: 0.4rem;
+  margin-right: 0.9rem;
   `;
 
+
+// seccion 2 nav
 export const NavSeccion2 = styled.div``;
 
 export const NavLink = styled(Link)`
