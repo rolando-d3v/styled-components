@@ -39,7 +39,7 @@ const Ul = styled.ul`
     padding-left: 0;
     margin-top: 0;
     margin-left: 0;
-    transition: all 0.2s linear;
+    transition: all 0.3s ease;
     /* opacity: 0.8; */
     /* transition: transform 0.4s; */
 

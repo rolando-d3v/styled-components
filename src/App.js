@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import styled from "styled-components";
-import Navbar from "./components/Nav/Navbar";
+import Navbar from "./layout/navbar/Navbar";
 import Home from "./pages/Home";
 import Compo01 from "./pages/Compo01";
 
