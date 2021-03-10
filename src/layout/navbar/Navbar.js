@@ -16,9 +16,11 @@ const Navbar = () => {
             {link.name}
           </s.NavLink>
         ))}
-        <s.InputSearch placeholder='Buscar' >
 
-        </s.InputSearch>
+        <s.ContenInput>
+          <s.InputSearch placeholder="Buscar" />
+          <s.IconSearch />
+        </s.ContenInput>
       </s.NavSeccion1>
 
       <s.NavSeccion2></s.NavSeccion2>
